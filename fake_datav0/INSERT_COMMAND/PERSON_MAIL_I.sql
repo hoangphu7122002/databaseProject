@@ -7,7 +7,7 @@ INSERT INTO PERSON_MAIL(SSN,MAIL) VALUES
 	(658299807,'fosterroberto@hotmail.com'),
 	(553361078,'andersenkelly@yahoo.com'),
 	(553361078,'welchdavid@gmail.com'),
-	(589646589,'jessicaevans@gmail.com'),
+	--(589646589,'jessicaevans@gmail.com'),
 	(795908059,'bryanburke@hotmail.com'),
 	(351524229,'stephenparsons@gmail.com'),
 	(351524229,'hlewis@yahoo.com'),

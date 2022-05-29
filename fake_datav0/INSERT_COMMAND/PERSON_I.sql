@@ -1,6 +1,6 @@
 USE DRIVER_SERVICE;
 
-INSERT INTO PERSON(SSN,First_name,Last_name,Gender) VALUES
+INSERT INTO PERSON(SSN,FirstName,LastName,Gender) VALUES
 	(182835988,'Jason','Brown','F'),
 	(658299807,'Miss','Christine','M'),
 	(553361078,'Corey','Mccall','F'),
@@ -11,9 +11,9 @@ INSERT INTO PERSON(SSN,First_name,Last_name,Gender) VALUES
 	(266777952,'Jocelyn','Lee','F'),
 	(421478385,'Victoria','Paul','F'),
 	(625064565,'David','Phillips','M'),
-	(182835988,'Jason','Brown','M'),
+	--(182835988,'Jason','Brown','M'),
 	(643400717,'Brandon','Kidd','M'),
-	(589646589,'Daniel','Hansen','M'),
+	--(589646589,'Daniel','Hansen','M'),
 	(296401306,'Nicole','Richardson','M'),
 	(604048949,'Cody','Pope','M'),
 	(340747318,'Vincent','Moore','M'),
