@@ -1,0 +1,155 @@
+{
+    "0": {
+        "NAME": "Kevin Martin",
+        "SSN": "159951930",
+        "PHONE": [
+            "0931743460"
+        ],
+        "GMAIL": [
+            "phillipmckenzie@hotmail.com"
+        ],
+        "EXPERIENCE": "1",
+        "E_ID": "2010025",
+        "DATE_BEGIN": "2022-05-13",
+        "RATING": 3
+    },
+    "1": {
+        "NAME": "Lisa Tucker",
+        "SSN": "387091691",
+        "PHONE": [
+            "0654228852",
+            "0760803323"
+        ],
+        "GMAIL": [
+            "qcrosby@yahoo.com",
+            "calderonjamie@hotmail.com"
+        ],
+        "EXPERIENCE": "2",
+        "E_ID": "2010638",
+        "DATE_BEGIN": "2022-05-07",
+        "RATING": 3
+    },
+    "2": {
+        "NAME": "Cathy Meyer",
+        "SSN": "571938356",
+        "PHONE": [
+            "0556126754",
+            "0931197477"
+        ],
+        "GMAIL": [
+            "lauren61@yahoo.com",
+            "rlewis@hotmail.com"
+        ],
+        "EXPERIENCE": "1",
+        "E_ID": "2010828",
+        "DATE_BEGIN": "2022-05-22",
+        "RATING": 1
+    },
+    "3": {
+        "NAME": "Wesley Steele",
+        "SSN": "691463675",
+        "PHONE": [
+            "0822274930"
+        ],
+        "GMAIL": [
+            "harrisjoshua@gmail.com",
+            "harrissabrina@hotmail.com"
+        ],
+        "EXPERIENCE": "1",
+        "E_ID": "2010332",
+        "DATE_BEGIN": "2022-05-15",
+        "RATING": 3
+    },
+    "4": {
+        "NAME": "Tyler Welch",
+        "SSN": "419869554",
+        "PHONE": [
+            "0938741801"
+        ],
+        "GMAIL": [
+            "roblesjustin@gmail.com",
+            "yatesamy@yahoo.com"
+        ],
+        "EXPERIENCE": "2",
+        "E_ID": "2010842",
+        "DATE_BEGIN": "2022-05-11",
+        "RATING": 1
+    },
+    "5": {
+        "NAME": "Brittany Moore",
+        "SSN": "087472489",
+        "PHONE": [
+            "0200368577"
+        ],
+        "GMAIL": [
+            "amartinez@yahoo.com",
+            "mark05@yahoo.com"
+        ],
+        "EXPERIENCE": "3",
+        "E_ID": "2010190",
+        "DATE_BEGIN": "2022-05-23",
+        "RATING": 1
+    },
+    "6": {
+        "NAME": "Casey Silva",
+        "SSN": "749280483",
+        "PHONE": [
+            "0187168125",
+            "0820637549"
+        ],
+        "GMAIL": [
+            "danielsingleton@hotmail.com"
+        ],
+        "EXPERIENCE": "2",
+        "E_ID": "2010159",
+        "DATE_BEGIN": "2022-05-01",
+        "RATING": 3
+    },
+    "7": {
+        "NAME": "Charles Osborne",
+        "SSN": "384392997",
+        "PHONE": [
+            "0948925166",
+            "0647564159"
+        ],
+        "GMAIL": [
+            "turnershawn@gmail.com",
+            "mary18@hotmail.com"
+        ],
+        "EXPERIENCE": "1",
+        "E_ID": "2010990",
+        "DATE_BEGIN": "2022-05-02",
+        "RATING": 3
+    },
+    "8": {
+        "NAME": "Michael Paul",
+        "SSN": "831349683",
+        "PHONE": [
+            "0259073300",
+            "0161845422"
+        ],
+        "GMAIL": [
+            "kmay@yahoo.com",
+            "washingtonmichael@hotmail.com"
+        ],
+        "EXPERIENCE": "3",
+        "E_ID": "2010608",
+        "DATE_BEGIN": "2022-05-15",
+        "RATING": 5
+    },
+    "9": {
+        "NAME": "Sharon Stevens",
+        "SSN": "507735440",
+        "PHONE": [
+            "0586821633"
+        ],
+        "GMAIL": [
+            "barbara94@yahoo.com",
+            "thomasruiz@gmail.com"
+        ],
+        "EXPERIENCE": "1",
+        "E_ID": "2010963",
+        "DATE_BEGIN": "2022-05-17",
+        "RATING": 3
+    }
+}

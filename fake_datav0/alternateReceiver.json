@@ -1,0 +1,227 @@
+{
+    "0": {
+        "RELATIONSHIP": "FRIEND",
+        "PHONE": [
+            "0620802282"
+        ],
+        "NAME": "Joel Brown",
+        "GMAIL": [
+            "ipayne@yahoo.com",
+            "thomasbruce@hotmail.com"
+        ]
+    },
+    "1": {
+        "RELATIONSHIP": "FRIEND",
+        "PHONE": [
+            "0247128440",
+            "0548357007"
+        ],
+        "NAME": "Melissa Gomez",
+        "GMAIL": [
+            "perkinsmaria@hotmail.com",
+            "agreene@hotmail.com"
+        ]
+    },
+    "2": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0125973070"
+        ],
+        "NAME": "Andrew Paul",
+        "GMAIL": [
+            "samuel66@hotmail.com"
+        ]
+    },
+    "3": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0288366441",
+            "0469661366"
+        ],
+        "NAME": "Joseph Chaney",
+        "GMAIL": [
+            "shelby08@gmail.com"
+        ]
+    },
+    "4": {
+        "RELATIONSHIP": "FRIEND",
+        "PHONE": [
+            "0859930568"
+        ],
+        "NAME": "Courtney Vazquez",
+        "GMAIL": [
+            "laurajimenez@hotmail.com"
+        ]
+    },
+    "5": {
+        "RELATIONSHIP": "FRIEND",
+        "PHONE": [
+            "0068659730",
+            "0005634985"
+        ],
+        "NAME": "Catherine Arnold",
+        "GMAIL": [
+            "gainesapril@hotmail.com"
+        ]
+    },
+    "6": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0775688624",
+            "0864648404"
+        ],
+        "NAME": "Warren Howard",
+        "GMAIL": [
+            "maxwellkenneth@gmail.com"
+        ]
+    },
+    "7": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0088788284"
+        ],
+        "NAME": "Ricky Thomas",
+        "GMAIL": [
+            "webbfred@hotmail.com"
+        ]
+    },
+    "8": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0132263823",
+            "0757587799"
+        ],
+        "NAME": "Mr. Thomas Morales V",
+        "GMAIL": [
+            "arthurgibson@yahoo.com",
+            "pauldecker@yahoo.com"
+        ]
+    },
+    "9": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0965812118"
+        ],
+        "NAME": "Colton Williams",
+        "GMAIL": [
+            "matthewskayla@hotmail.com",
+            "patriciabrooks@gmail.com"
+        ]
+    },
+    "10": {
+        "RELATIONSHIP": "FRIEND",
+        "PHONE": [
+            "0691801947",
+            "0702805500"
+        ],
+        "NAME": "Alan Kramer",
+        "GMAIL": [
+            "courtneywilliams@gmail.com",
+            "caitlinbates@yahoo.com"
+        ]
+    },
+    "11": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0449589518",
+            "0269771497"
+        ],
+        "NAME": "Scott Torres",
+        "GMAIL": [
+            "valeriecline@hotmail.com"
+        ]
+    },
+    "12": {
+        "RELATIONSHIP": "FRIEND",
+        "PHONE": [
+            "0807753396",
+            "0686444285"
+        ],
+        "NAME": "Deborah Hall",
+        "GMAIL": [
+            "hfrank@hotmail.com"
+        ]
+    },
+    "13": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0471713895",
+            "0071354525"
+        ],
+        "NAME": "Crystal Martin",
+        "GMAIL": [
+            "apeterson@yahoo.com",
+            "william77@hotmail.com"
+        ]
+    },
+    "14": {
+        "RELATIONSHIP": "FRIEND",
+        "PHONE": [
+            "0785144441",
+            "0134305030"
+        ],
+        "NAME": "Edwin Wagner",
+        "GMAIL": [
+            "xmacdonald@hotmail.com",
+            "julia40@hotmail.com"
+        ]
+    },
+    "15": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0522936814"
+        ],
+        "NAME": "Cynthia Bailey",
+        "GMAIL": [
+            "harry90@yahoo.com",
+            "wilcoxcynthia@hotmail.com"
+        ]
+    },
+    "16": {
+        "RELATIONSHIP": "FRIEND",
+        "PHONE": [
+            "0654488049",
+            "0208573928"
+        ],
+        "NAME": "Melissa Rocha",
+        "GMAIL": [
+            "shawnhunter@yahoo.com",
+            "ryansharp@yahoo.com"
+        ]
+    },
+    "17": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0532426796",
+            "0297916109"
+        ],
+        "NAME": "Frank Moore",
+        "GMAIL": [
+            "adkinsalexandra@gmail.com",
+            "maria73@yahoo.com"
+        ]
+    },
+    "18": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0367581250",
+            "0197638532"
+        ],
+        "NAME": "Rhonda Barnes",
+        "GMAIL": [
+            "hansenhayley@hotmail.com"
+        ]
+    },
+    "19": {
+        "RELATIONSHIP": "FAMILY",
+        "PHONE": [
+            "0822863890",
+            "0941922012"
+        ],
+        "NAME": "Diana Dean",
+        "GMAIL": [
+            "annruiz@gmail.com",
+            "dgay@gmail.com"
+        ]
+    }
+}

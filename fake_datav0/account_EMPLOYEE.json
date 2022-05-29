@@ -1,0 +1,68 @@
+{
+    "0": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "5763894824_EE@test.com",
+        "PASSWORD": "8335562165",
+        "ID": "5509102969"
+    },
+    "1": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "9720132605_EE@test.com",
+        "PASSWORD": "7878426075",
+        "ID": "2923137493"
+    },
+    "2": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "5694996893_EE@test.com",
+        "PASSWORD": "3233363953",
+        "ID": "3870403005"
+    },
+    "3": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "7108632812_EE@test.com",
+        "PASSWORD": "1432130942",
+        "ID": "9873246566"
+    },
+    "4": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "6536350294_EE@test.com",
+        "PASSWORD": "5802726846",
+        "ID": "4187095262"
+    },
+    "5": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "8526777160_EE@test.com",
+        "PASSWORD": "5164333376",
+        "ID": "6242517120"
+    },
+    "6": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "3250498437_EE@test.com",
+        "PASSWORD": "1369850934",
+        "ID": "4654548903"
+    },
+    "7": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "8206911271_EE@test.com",
+        "PASSWORD": "1819175702",
+        "ID": "4694929708"
+    },
+    "8": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "2113597113_EE@test.com",
+        "PASSWORD": "6225121818",
+        "ID": "4658525873"
+    },
+    "9": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "9013261730_EE@test.com",
+        "PASSWORD": "5816575672",
+        "ID": "5477304721"
+    },
+    "10": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "admin@test.com",
+        "PASSWORD": "01234",
+        "ID": "0"
+    }
+}

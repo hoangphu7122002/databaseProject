@@ -1,0 +1,102 @@
+{
+    "0": {
+        "V_NUMBER": "06T9/74098",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "98199736"
+    },
+    "1": {
+        "V_NUMBER": "22F3/18258",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "96509962"
+    },
+    "2": {
+        "V_NUMBER": "45s6/89743",
+        "TYPE": "CAR",
+        "RE-NUMBER": "79274037"
+    },
+    "3": {
+        "V_NUMBER": "09j2/14250",
+        "TYPE": "CAR",
+        "RE-NUMBER": "64815683"
+    },
+    "4": {
+        "V_NUMBER": "80t3/98029",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "32612252"
+    },
+    "5": {
+        "V_NUMBER": "88v1/89957",
+        "TYPE": "CAR",
+        "RE-NUMBER": "75272521"
+    },
+    "6": {
+        "V_NUMBER": "01H0/76287",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "85998326"
+    },
+    "7": {
+        "V_NUMBER": "16v5/37275",
+        "TYPE": "CAR",
+        "RE-NUMBER": "00804434"
+    },
+    "8": {
+        "V_NUMBER": "88l9/06382",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "55320941"
+    },
+    "9": {
+        "V_NUMBER": "08z5/67302",
+        "TYPE": "BIKE",
+        "RE-NUMBER": "24898587"
+    },
+    "10": {
+        "V_NUMBER": "75Q0/88337",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "72909716"
+    },
+    "11": {
+        "V_NUMBER": "14u5/25866",
+        "TYPE": "BIKE",
+        "RE-NUMBER": "60527050"
+    },
+    "12": {
+        "V_NUMBER": "45m3/35914",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "37683425"
+    },
+    "13": {
+        "V_NUMBER": "20z9/46415",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "84153594"
+    },
+    "14": {
+        "V_NUMBER": "90q1/18989",
+        "TYPE": "BIKE",
+        "RE-NUMBER": "96006630"
+    },
+    "15": {
+        "V_NUMBER": "69X9/14869",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "32251716"
+    },
+    "16": {
+        "V_NUMBER": "14s5/86083",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "68058717"
+    },
+    "17": {
+        "V_NUMBER": "54h3/16981",
+        "TYPE": "BIKE",
+        "RE-NUMBER": "83614023"
+    },
+    "18": {
+        "V_NUMBER": "42k5/20031",
+        "TYPE": "TRUCK",
+        "RE-NUMBER": "48645202"
+    },
+    "19": {
+        "V_NUMBER": "69u9/63540",
+        "TYPE": "BIKE",
+        "RE-NUMBER": "93425414"
+    }
+}

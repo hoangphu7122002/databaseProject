@@ -1,0 +1,42 @@
+{
+    "0": {
+        "PAYMENT_TYPE": "DIRECT",
+        "TIME": "2017-03-25"
+    },
+    "1": {
+        "PAYMENT_TYPE": "DIRECT",
+        "TIME": "2020-06-09"
+    },
+    "2": {
+        "PAYMENT_TYPE": "MOMO",
+        "TIME": "2006-12-05"
+    },
+    "3": {
+        "PAYMENT_TYPE": "DIRECT",
+        "TIME": "1994-06-11"
+    },
+    "4": {
+        "PAYMENT_TYPE": "BANK",
+        "TIME": "1999-11-12"
+    },
+    "5": {
+        "PAYMENT_TYPE": "BANK",
+        "TIME": "1972-08-06"
+    },
+    "6": {
+        "PAYMENT_TYPE": "DIRECT",
+        "TIME": "1971-06-10"
+    },
+    "7": {
+        "PAYMENT_TYPE": "DIRECT",
+        "TIME": "2000-11-25"
+    },
+    "8": {
+        "PAYMENT_TYPE": "MOMO",
+        "TIME": "1975-06-27"
+    },
+    "9": {
+        "PAYMENT_TYPE": "BANK",
+        "TIME": "1986-09-01"
+    }
+}

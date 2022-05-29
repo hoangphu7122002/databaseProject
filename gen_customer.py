@@ -88,15 +88,16 @@ class Vehicle(object):
             json.dump(data, fp)
 
 class Account(object):
-    def __init__(self,num_account):
+    def __init__(self,num_account,mode):
         self.num_account = num_account
-        self.name = "account"
-    
+        self.name = "account_{}".format(mode)
+        self.mode = mode
+            
     def get_data(self):
         account_data =  dict()
         for i in range(self.num_account):
             account_data[i] = {}
-            account_data[i]["TYPE"] = random.choice(["CUSTOMER","EMPLOYEE","DRIVER"])
+            account_data[i]["TYPE"] = self.mode
             if account_data[i]["TYPE"] == "CUSTOMER":
                 account_data[i]["USERNAME"] = "{}_CR@test.com".format(fake.unique.msisdn()[:10])
             elif account_data[i]["TYPE"] == "EMPLOYEE":
@@ -241,8 +242,12 @@ if __name__ == '__main__':
     vehicle.save_data()
     
     #GEN ACCOUNT
-    account = Account(40)
-    account.save_data()
+    account_1 = Account(20,"CUSTOMER")
+    account_2 = Account(10,"EMPLOYEE")
+    account_3 = Account(10,"DRIVER")
+    account_1.save_data()
+    account_2.save_data()
+    account_3.save_data()
     
     #GEN AlternateReceiver
     alternateReceiver = AlternateReceiver(20)

@@ -1,0 +1,125 @@
+{
+    "0": {
+        "NAME": "Jason Brown",
+        "SSN": "182835988",
+        "PHONE": [
+            "0746936672",
+            "0734938563"
+        ],
+        "GMAIL": [
+            "olee@yahoo.com",
+            "emyers@yahoo.com"
+        ],
+        "ADDRESS": "53146 Jennings Shoals/Mathisport, NJ 73764"
+    },
+    "1": {
+        "NAME": "Brandon Kidd",
+        "SSN": "643400717",
+        "PHONE": [
+            "0906865813",
+            "0987698129"
+        ],
+        "GMAIL": [
+            "campbellsheila@gmail.com"
+        ],
+        "ADDRESS": "4503 Braun Pine Apt. 904/Mooneytown, DE 06347"
+    },
+    "2": {
+        "NAME": "Daniel Hansen",
+        "SSN": "589646589",
+        "PHONE": [
+            "0913121114"
+        ],
+        "GMAIL": [
+            "jessicaevans@gmail.com",
+            "iruiz@hotmail.com"
+        ],
+        "ADDRESS": "29381 Amy Course Suite 181/Christopherview, AL 31234"
+    },
+    "3": {
+        "NAME": "Nicole Richardson",
+        "SSN": "296401306",
+        "PHONE": [
+            "0956356403"
+        ],
+        "GMAIL": [
+            "meltonmichael@yahoo.com",
+            "susanmyers@gmail.com"
+        ],
+        "ADDRESS": "4273 Alisha Viaduct/Wallaceland, KY 92286"
+    },
+    "4": {
+        "NAME": "Cody Pope",
+        "SSN": "604048949",
+        "PHONE": [
+            "0263044801",
+            "0412997094"
+        ],
+        "GMAIL": [
+            "cody10@yahoo.com"
+        ],
+        "ADDRESS": "9707 Ian Dale/Alexandrabury, SD 33497"
+    },
+    "5": {
+        "NAME": "Vincent Moore",
+        "SSN": "340747318",
+        "PHONE": [
+            "0636588528",
+            "0331799815"
+        ],
+        "GMAIL": [
+            "daniel49@yahoo.com",
+            "bishopjoshua@hotmail.com"
+        ],
+        "ADDRESS": "763 Kyle Row/Williamsview, VA 23072"
+    },
+    "6": {
+        "NAME": "Timothy Jones",
+        "SSN": "215040471",
+        "PHONE": [
+            "0938561412",
+            "0369133134"
+        ],
+        "GMAIL": [
+            "aaron64@gmail.com",
+            "edwardsalazar@hotmail.com"
+        ],
+        "ADDRESS": "204 Mary Corner Suite 672/Williamsmouth, MT 26632"
+    },
+    "7": {
+        "NAME": "Kyle Mcdonald",
+        "SSN": "271251120",
+        "PHONE": [
+            "0456220883",
+            "0547874623"
+        ],
+        "GMAIL": [
+            "lisavaldez@yahoo.com",
+            "williamssara@gmail.com"
+        ],
+        "ADDRESS": "16118 Joshua Spring/Kimberlyport, HI 74302"
+    },
+    "8": {
+        "NAME": "Christopher Rubio",
+        "SSN": "855496674",
+        "PHONE": [
+            "0088499704"
+        ],
+        "GMAIL": [
+            "haasbarbara@gmail.com"
+        ],
+        "ADDRESS": "07483 Garcia Junctions/North Jeremyside, MO 75162"
+    },
+    "9": {
+        "NAME": "Kathy Harrison",
+        "SSN": "642346527",
+        "PHONE": [
+            "0251299135"
+        ],
+        "GMAIL": [
+            "bakeraaron@gmail.com",
+            "lindsey63@hotmail.com"
+        ],
+        "ADDRESS": "65766 Goodman Fork/East April, LA 28397"
+    }
+}

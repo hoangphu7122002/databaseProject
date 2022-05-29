@@ -1,0 +1,152 @@
+{
+    "0": {
+        "PACKAGE_ID": "833315931",
+        "WEIGHT": 23,
+        "TYPE_NAME": "NORMAL",
+        "TYPE_LEVEL": 2
+    },
+    "1": {
+        "PACKAGE_ID": "630871144",
+        "WEIGHT": 28,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 1
+    },
+    "2": {
+        "PACKAGE_ID": "862518609",
+        "WEIGHT": 9,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 2
+    },
+    "3": {
+        "PACKAGE_ID": "638686658",
+        "WEIGHT": 15,
+        "TYPE_NAME": "NORMAL",
+        "TYPE_LEVEL": 3
+    },
+    "4": {
+        "PACKAGE_ID": "807551802",
+        "WEIGHT": 25,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 2
+    },
+    "5": {
+        "PACKAGE_ID": "706909279",
+        "WEIGHT": 39,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 2
+    },
+    "6": {
+        "PACKAGE_ID": "911006677",
+        "WEIGHT": 48,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 2
+    },
+    "7": {
+        "PACKAGE_ID": "268237196",
+        "WEIGHT": 14,
+        "TYPE_NAME": "FRAGILE",
+        "TYPE_LEVEL": 4
+    },
+    "8": {
+        "PACKAGE_ID": "223152288",
+        "WEIGHT": 47,
+        "TYPE_NAME": "FRAGILE",
+        "TYPE_LEVEL": 1
+    },
+    "9": {
+        "PACKAGE_ID": "268584140",
+        "WEIGHT": 22,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 1
+    },
+    "10": {
+        "PACKAGE_ID": "979869698",
+        "WEIGHT": 15,
+        "TYPE_NAME": "FRAGILE",
+        "TYPE_LEVEL": 3
+    },
+    "11": {
+        "PACKAGE_ID": "111068862",
+        "WEIGHT": 9,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 3
+    },
+    "12": {
+        "PACKAGE_ID": "499341039",
+        "WEIGHT": 4,
+        "TYPE_NAME": "NORMAL",
+        "TYPE_LEVEL": 4
+    },
+    "13": {
+        "PACKAGE_ID": "422624352",
+        "WEIGHT": 16,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 1
+    },
+    "14": {
+        "PACKAGE_ID": "273679761",
+        "WEIGHT": 30,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 1
+    },
+    "15": {
+        "PACKAGE_ID": "999638575",
+        "WEIGHT": 43,
+        "TYPE_NAME": "NORMAL",
+        "TYPE_LEVEL": 3
+    },
+    "16": {
+        "PACKAGE_ID": "066846691",
+        "WEIGHT": 43,
+        "TYPE_NAME": "FRAGILE",
+        "TYPE_LEVEL": 4
+    },
+    "17": {
+        "PACKAGE_ID": "372863992",
+        "WEIGHT": 49,
+        "TYPE_NAME": "NORMAL",
+        "TYPE_LEVEL": 2
+    },
+    "18": {
+        "PACKAGE_ID": "275409114",
+        "WEIGHT": 41,
+        "TYPE_NAME": "NORMAL",
+        "TYPE_LEVEL": 3
+    },
+    "19": {
+        "PACKAGE_ID": "541397032",
+        "WEIGHT": 25,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 1
+    },
+    "20": {
+        "PACKAGE_ID": "171906714",
+        "WEIGHT": 40,
+        "TYPE_NAME": "FRAGILE",
+        "TYPE_LEVEL": 1
+    },
+    "21": {
+        "PACKAGE_ID": "535238481",
+        "WEIGHT": 36,
+        "TYPE_NAME": "HAZARD",
+        "TYPE_LEVEL": 3
+    },
+    "22": {
+        "PACKAGE_ID": "582479922",
+        "WEIGHT": 23,
+        "TYPE_NAME": "FRAGILE",
+        "TYPE_LEVEL": 4
+    },
+    "23": {
+        "PACKAGE_ID": "900879650",
+        "WEIGHT": 16,
+        "TYPE_NAME": "FRAGILE",
+        "TYPE_LEVEL": 1
+    },
+    "24": {
+        "PACKAGE_ID": "405491139",
+        "WEIGHT": 32,
+        "TYPE_NAME": "NORMAL",
+        "TYPE_LEVEL": 3
+    }
+}

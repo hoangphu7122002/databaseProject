@@ -1,0 +1,128 @@
+{
+    "0": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "5639852077_CR@test.com",
+        "PASSWORD": "2558124401",
+        "ID": "6657563032"
+    },
+    "1": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "3253562517_CR@test.com",
+        "PASSWORD": "1883008741",
+        "ID": "4859152566"
+    },
+    "2": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "4479135456_CR@test.com",
+        "PASSWORD": "5698613840",
+        "ID": "3321127155"
+    },
+    "3": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "9442813711_CR@test.com",
+        "PASSWORD": "6236325065",
+        "ID": "9174163102"
+    },
+    "4": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "7169480280_CR@test.com",
+        "PASSWORD": "8559976575",
+        "ID": "6642045151"
+    },
+    "5": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "5668139461_CR@test.com",
+        "PASSWORD": "4444485757",
+        "ID": "8275820795"
+    },
+    "6": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "1598846798_CR@test.com",
+        "PASSWORD": "7561650946",
+        "ID": "2378916965"
+    },
+    "7": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "4900288083_CR@test.com",
+        "PASSWORD": "1971396254",
+        "ID": "8424235194"
+    },
+    "8": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "8393943428_CR@test.com",
+        "PASSWORD": "5122239286",
+        "ID": "3053512631"
+    },
+    "9": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "4680987656_CR@test.com",
+        "PASSWORD": "5253537344",
+        "ID": "0805900102"
+    },
+    "10": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "5061699190_CR@test.com",
+        "PASSWORD": "4127856901",
+        "ID": "4236461441"
+    },
+    "11": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "9817521121_CR@test.com",
+        "PASSWORD": "2962699900",
+        "ID": "6650952502"
+    },
+    "12": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "3303800109_CR@test.com",
+        "PASSWORD": "6542155854",
+        "ID": "8225265062"
+    },
+    "13": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "5733023169_CR@test.com",
+        "PASSWORD": "4483657549",
+        "ID": "1560806235"
+    },
+    "14": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "8588098128_CR@test.com",
+        "PASSWORD": "5496098701",
+        "ID": "2508566969"
+    },
+    "15": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "9850906576_CR@test.com",
+        "PASSWORD": "8365079940",
+        "ID": "2958102437"
+    },
+    "16": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "6512186957_CR@test.com",
+        "PASSWORD": "0190149655",
+        "ID": "4123083442"
+    },
+    "17": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "7258966548_CR@test.com",
+        "PASSWORD": "6529966153",
+        "ID": "8687314323"
+    },
+    "18": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "4307246251_CR@test.com",
+        "PASSWORD": "5859081249",
+        "ID": "5149706041"
+    },
+    "19": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "4156704648_CR@test.com",
+        "PASSWORD": "1863650249",
+        "ID": "3185764826"
+    },
+    "20": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "admin@test.com",
+        "PASSWORD": "01234",
+        "ID": "0"
+    }
+}
