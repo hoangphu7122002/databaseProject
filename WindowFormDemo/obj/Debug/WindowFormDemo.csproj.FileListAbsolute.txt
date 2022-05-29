@@ -1,0 +1,10 @@
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\bin\Debug\WindowFormDemo.exe.config
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\bin\Debug\WindowFormDemo.exe
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\bin\Debug\WindowFormDemo.pdb
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\obj\Debug\WindowFormDemo.csproj.AssemblyReference.cache
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\obj\Debug\WindowFormDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\obj\Debug\WindowFormDemo.Properties.Resources.resources
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\obj\Debug\WindowFormDemo.csproj.GenerateResource.cache
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\obj\Debug\WindowFormDemo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\obj\Debug\WindowFormDemo.exe
+C:\Users\Admin\Dropbox\My PC (LAPTOP-N0TMGG17)\Desktop\DB_PROJECT\WindowFormDemo\obj\Debug\WindowFormDemo.pdb

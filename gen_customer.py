@@ -50,8 +50,7 @@ class Person(object):
                 customer_data[i]["ADDRESS"] = re.sub('\n','/',fake.unique.address())
             elif self.mode == "CS":
                 lst_type = ["NORMAL","DISCOUNT","EXPRESS"]
-                random.shuffle(lst_type)
-                customer_data["SERVICE"] = lst_type[:random.randint(1,3)]
+                customer_data[i]["SERVICE"] = random.choice(lst_type)
             elif self.mode == "DR":
                 customer_data[i]["LISENCE_ID"] = f"{fake.unique.msisdn()}"
                 customer_data[i]["EXPERIENCE"] = np.random.randint(1,10)
@@ -88,9 +87,12 @@ class Vehicle(object):
             json.dump(data, fp)
 
 class Account(object):
-    def __init__(self,num_account,mode):
+    def __init__(self,num_account,mode,type=None):
         self.num_account = num_account
-        self.name = "account_{}".format(mode)
+        if type is None:
+            self.name = "account_{}".format(mode)
+        else:
+            self.name = "account_{}_{}".format(mode,type)
         self.mode = mode
             
     def get_data(self):
@@ -220,52 +222,56 @@ class RelationshipDelivery(object):
         with open('{}.json'.format(self.name), 'w') as fp:
             json.dump(data, fp)
             
-if __name__ == '__main__':
-    #GEN CUSTOMER RECEIVE:
-    customer_receive = Person(10,"CR")
-    customer_receive.save_data()
+# if __name__ == '__main__':
+#     #GEN CUSTOMER RECEIVE:
+#     customer_receive = Person(10,"CR")
+#     customer_receive.save_data()
     
+#     #GEN CUSTOMER SEND
+#     customer_send = Person(10,"CS")
+#     customer_send.save_data()
+    
+#     #GEN EMPLOYEE
+#     employee = Person(10,"EE")
+#     employee.save_data()
+    
+#     #GEN DRIVER
+#     driver = Person(10,"DR")
+#     driver.save_data()
+
+#     #GEN VEHICLE
+#     vehicle = Vehicle(20)
+#     vehicle.save_data()
+    
+#     #GEN ACCOUNT
+#     account_1 = Account(20,"CUSTOMER")
+#     account_2 = Account(10,"EMPLOYEE")
+#     account_3 = Account(10,"DRIVER")
+#     account_1.save_data()
+#     account_2.save_data()
+#     account_3.save_data()
+    
+#     #GEN AlternateReceiver
+#     alternateReceiver = AlternateReceiver(20)
+#     alternateReceiver.save_data()
+    
+#     #GEN Order
+#     order = Order(15)
+#     order.save_data()
+    
+#     #GEN PACKAGE
+#     package = Package(25)
+#     package.save_data()
+    
+#     #GEN RelationshipSend
+#     relationshipSend = RelationshipSend(10)
+#     relationshipSend.save_data()
+    
+#     #GEN RelationshipDelivery
+#     relationShipDelivery = RelationshipDelivery(10)
+#     relationShipDelivery.save_data()
+
+if __name__ == "__main__":
     #GEN CUSTOMER SEND
     customer_send = Person(10,"CS")
     customer_send.save_data()
-    
-    #GEN EMPLOYEE
-    employee = Person(10,"EE")
-    employee.save_data()
-    
-    #GEN DRIVER
-    driver = Person(10,"DR")
-    driver.save_data()
-
-    #GEN VEHICLE
-    vehicle = Vehicle(20)
-    vehicle.save_data()
-    
-    #GEN ACCOUNT
-    account_1 = Account(20,"CUSTOMER")
-    account_2 = Account(10,"EMPLOYEE")
-    account_3 = Account(10,"DRIVER")
-    account_1.save_data()
-    account_2.save_data()
-    account_3.save_data()
-    
-    #GEN AlternateReceiver
-    alternateReceiver = AlternateReceiver(20)
-    alternateReceiver.save_data()
-    
-    #GEN Order
-    order = Order(15)
-    order.save_data()
-    
-    #GEN PACKAGE
-    package = Package(25)
-    package.save_data()
-    
-    #GEN RelationshipSend
-    relationshipSend = RelationshipSend(10)
-    relationshipSend.save_data()
-    
-    #GEN RelationshipDelivery
-    relationShipDelivery = RelationshipDelivery(10)
-    relationShipDelivery.save_data()
-    

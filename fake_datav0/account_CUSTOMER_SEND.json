@@ -1,0 +1,68 @@
+{
+    "0": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "4787462330_CR@test.com",
+        "PASSWORD": "6810101611",
+        "ID": "4642924228"
+    },
+    "1": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "8030088499_CR@test.com",
+        "PASSWORD": "0983670207",
+        "ID": "1150138369"
+    },
+    "2": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "3465098825_CR@test.com",
+        "PASSWORD": "3514005163",
+        "ID": "5766733386"
+    },
+    "3": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "5813727015_CR@test.com",
+        "PASSWORD": "6186135938",
+        "ID": "5744022853"
+    },
+    "4": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "2334818573_CR@test.com",
+        "PASSWORD": "1803919767",
+        "ID": "9569982942"
+    },
+    "5": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "3432640514_CR@test.com",
+        "PASSWORD": "4518284239",
+        "ID": "2172012704"
+    },
+    "6": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "3365973234_CR@test.com",
+        "PASSWORD": "2721130936",
+        "ID": "2774786960"
+    },
+    "7": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "3685447585_CR@test.com",
+        "PASSWORD": "1675760659",
+        "ID": "7196098568"
+    },
+    "8": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "7853510576_CR@test.com",
+        "PASSWORD": "4880914584",
+        "ID": "2453236862"
+    },
+    "9": {
+        "TYPE": "CUSTOMER",
+        "USERNAME": "5974218829_CR@test.com",
+        "PASSWORD": "0360335605",
+        "ID": "3064120934"
+    },
+    "10": {
+        "TYPE": "EMPLOYEE",
+        "USERNAME": "admin@test.com",
+        "PASSWORD": "01234",
+        "ID": "0"
+    }
+}

@@ -1,116 +1,124 @@
 {
     "0": {
-        "NAME": "Sandra Brown",
-        "SSN": "782691877",
+        "NAME": "Jason Brown",
+        "SSN": "182835988",
         "PHONE": [
-            "0150932618"
+            "0746936672"
         ],
         "GMAIL": [
-            "osimon@yahoo.com"
-        ]
+            "ismith@gmail.com",
+            "pyoung@yahoo.com"
+        ],
+        "SERVICE": "NORMAL"
     },
-    "SERVICE": [
-        "NORMAL"
-    ],
     "1": {
-        "NAME": "Michelle Byrd",
-        "SSN": "817373218",
+        "NAME": "Miss Christine Morgan",
+        "SSN": "658299807",
         "PHONE": [
-            "0402285310"
+            "0661154933",
+            "0756147811"
         ],
         "GMAIL": [
-            "glennmartinez@gmail.com",
-            "william85@yahoo.com"
-        ]
+            "bradley34@gmail.com",
+            "fosterroberto@hotmail.com"
+        ],
+        "SERVICE": "DISCOUNT"
     },
     "2": {
-        "NAME": "Megan Clark",
-        "SSN": "592992891",
+        "NAME": "Corey Mccall",
+        "SSN": "553361078",
         "PHONE": [
-            "0919767027",
-            "0982942516"
+            "0981290464",
+            "0645035583"
         ],
         "GMAIL": [
-            "james32@yahoo.com",
-            "stacy51@yahoo.com"
-        ]
+            "andersenkelly@yahoo.com",
+            "welchdavid@gmail.com"
+        ],
+        "SERVICE": "EXPRESS"
     },
     "3": {
-        "NAME": "Alan Haynes",
-        "SSN": "278411849",
+        "NAME": "Daniel Hansen",
+        "SSN": "589646589",
         "PHONE": [
-            "0950862172"
+            "0913121114"
         ],
         "GMAIL": [
-            "villanuevachristopher@yahoo.com"
-        ]
+            "jessicaevans@gmail.com"
+        ],
+        "SERVICE": "DISCOUNT"
     },
     "4": {
-        "NAME": "Michael Aguirre",
-        "SSN": "701064867",
+        "NAME": "Chris Lyons",
+        "SSN": "795908059",
         "PHONE": [
-            "0597323414",
-            "0130936658"
+            "0128151815",
+            "0565044156"
         ],
         "GMAIL": [
-            "osexton@yahoo.com"
-        ]
+            "bryanburke@hotmail.com"
+        ],
+        "SERVICE": "DISCOUNT"
     },
     "5": {
-        "NAME": "Mark Arias",
-        "SSN": "571867135",
+        "NAME": "Cynthia Glenn",
+        "SSN": "351524229",
         "PHONE": [
-            "0236854475",
-            "0167576065"
+            "0520662658"
         ],
         "GMAIL": [
-            "larsondavid@yahoo.com",
-            "williamsonpaul@gmail.com"
-        ]
+            "stephenparsons@gmail.com",
+            "hlewis@yahoo.com"
+        ],
+        "SERVICE": "NORMAL"
     },
     "6": {
-        "NAME": "Michelle Nicholson",
-        "SSN": "332539202",
+        "NAME": "Brandon Adams",
+        "SSN": "870904007",
         "PHONE": [
-            "0535105762",
-            "0809145846"
+            "0730862630",
+            "0752494129"
         ],
         "GMAIL": [
-            "rbrown@gmail.com",
-            "kevinlee@gmail.com"
-        ]
+            "sbrown@hotmail.com",
+            "suzanne12@gmail.com"
+        ],
+        "SERVICE": "DISCOUNT"
     },
     "7": {
-        "NAME": "Jennifer Simmons",
-        "SSN": "328421708",
+        "NAME": "Jocelyn Lee",
+        "SSN": "266777952",
         "PHONE": [
-            "0218829487",
-            "0335605713"
+            "0489314548"
         ],
         "GMAIL": [
-            "jamesmorales@gmail.com",
-            "adamrobinson@yahoo.com"
-        ]
+            "juliejohnston@gmail.com",
+            "ghardy@gmail.com"
+        ],
+        "SERVICE": "NORMAL"
     },
     "8": {
-        "NAME": "Krystal Abbott",
-        "SSN": "683517533",
+        "NAME": "Victoria Paul",
+        "SSN": "421478385",
         "PHONE": [
-            "0479640390"
+            "0063331799"
         ],
         "GMAIL": [
-            "druiz@yahoo.com"
-        ]
+            "blairmario@yahoo.com"
+        ],
+        "SERVICE": "DISCOUNT"
     },
     "9": {
-        "NAME": "Heather Robertson",
-        "SSN": "718704702",
+        "NAME": "David Phillips",
+        "SSN": "625064565",
         "PHONE": [
-            "0694233828"
+            "0763147041",
+            "0300479209"
         ],
         "GMAIL": [
-            "morrisandrew@gmail.com",
-            "sanchezsamantha@hotmail.com"
-        ]
+            "wesleyedwards@gmail.com",
+            "charles21@hotmail.com"
+        ],
+        "SERVICE": "NORMAL"
     }
 }
