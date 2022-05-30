@@ -63,7 +63,7 @@ for key in order.keys():
     f.write(insert_query)
     
     time += 1
-    if time == num_order:
+    if time == num_order[iterator]:
         time = 0
         iterator += 1
     
