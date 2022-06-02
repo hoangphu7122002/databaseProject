@@ -20,7 +20,7 @@ for i,file in enumerate(files):
     for key in person.keys():
         try:
             for j,mail in enumerate(person[key]["PHONE"]):
-                insert_query = "\t({},{})".format(person[key]["SSN"],mail)
+                insert_query = "\t({},'{}')".format(person[key]["SSN"],mail)
                 f.write(insert_query)
                 if key == "9" and i == len(files) - 1 and j == len(person[key]["PHONE"]) - 1:
                     f.write(';')
