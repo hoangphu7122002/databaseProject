@@ -1,0 +1,78 @@
+Person:
+ssn: bắt buộc, đúng 9 chữ số
+first name: bắt buộc, chữ cái đầu viết hoa.
+last name: bắt buộc, chữ cái đầu viết hoa.
+Gender: bắt buộc 1 kí tự, F hoặc M.
+
+Customer_receive:
+ssn: bắt buộc, 9 kí tự.
+address: bắt buộc, không giới hạn.
+
+Customer_send:
+ssn: bắt buộc, 9 kí tự.
+service: bắt buộc, (Có bao nhiêu loại service? Phải nằm trong các loại service đã đề ra mới được)
+
+Employee:
+ssn: bắt buộc, 9 kí tự.
+eid: bắt buộc, 7 kí tự.
+datebegin: bắt buộc, theo định dạng dd/mm/yyyy
+exp: bắt buộc.
+superSSN: không bắt buộc, nếu có phải là 9 kí tự.
+
+vehicle:
+vnum: bắt buộc, 10 kí tự
+rnum: bắt buộc, 8 kí tự.
+vtype: bắt buộc. Chọn trong các loại xe mà mình đề ra (Nói mọi người đề ra).
+
+driver:
+ssn: bắt buộc, 9 kí tự.
+licenseid: bắt buộc, 9 kí tự.
+exp: bắt buộc, số năm.
+
+drives:
+ssn: bắt buộc, 9 kí tự.
+vnum: bắt buộc, 10 kí tự.
+
+person mail:
+ssn: bắt buộc, 9 kí tự.
+mail: bắt buộc phải có @something.com (thì mới coi là mail hợp lệ).
+
+person phone:
+ssn: bắt buộc 9 kí tự.
+phone: bắt buộc 10 kí tự.
+
+alternative receiver:
+ssn: bắt buộc, 9 kí tự.
+fname: bắt buộc (Không giới hạn chữ)
+phone: bắt buộc 10 kí tự.
+relationship: bắt buộc, nằm trong các mối quan hệ mà mình đề ra (người thân, bạn bè).
+
+account:
+id: bắt buộc 10 kí tự.
+atype: bắt buộc, nằm trong các loại account mà mình đã đề ra (thường, nhanh, siêu nhanh :Đ)
+username: bắt buộc, max 32 kí tự.
+ssn: bắt buộc, 9 kí tự.
+
+order:
+ssn_cr: bắt buộc 9 kí tự
+ssn_cs: bắt buộc 9 kí tự
+ssn_emp: bắt buộc 9 kí tự.
+orderid: bắt buộc 10 kí tự.
+add_send: bắt buộc, Không giới hạn kí tự.
+add_receive: bắt buộc, không giới hạn kí tự.
+totalweight: bắt buộc.
+nopackage: bắt buộc
+totalprice: bắt buộc
+rate: không bắt buộc.
+paymenttype: bắt buộc, nằm trong các loại payment đã đề ra
+otime: bắt buộc.
+
+package:
+pid: bắt buộc, 9 kí tự.
+pweight: bắt buộc.
+typename: bắt buộc
+typelevel: bắt buộc
+orderid: bắt buộc 10 số
+ssn: bắt buộc 9 số
+time: bắt buộc 
+location: bắt buộc, không giới hạn (chỉ nằm trong một số kho mà mình đã đề ra, vì số lượng kho giới hạn)
