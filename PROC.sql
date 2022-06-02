@@ -50,3 +50,9 @@ EXEC UpdateAccount  @username = '5763894824_EE@test.com' , @password = '83355621
 
 SELECT * FROM ACCOUNT;
 
+SELECT * FROM PERSON_PHONE;
+
+CREATE PROC InsertPhone
+@ssn NUMERIC(9), @phone NUMERIC(10)
+
+SELECT * FROM 
