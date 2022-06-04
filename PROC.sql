@@ -1,3 +1,4 @@
+
 CREATE PROC VIEW_ACCOUNT_BY_username
 @username VARCHAR(32)
 AS
