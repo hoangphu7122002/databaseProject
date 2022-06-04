@@ -1,6 +1,6 @@
---get number package from every order
+﻿--get number package from every order
 --get total weight from every order
-ALTER PROC LIST_ABOUT_ORDER 
+/*ALTER PROC LIST_ABOUT_ORDER 
 @ssn VARCHAR(10)
 AS
 BEGIN
@@ -14,8 +14,31 @@ BEGIN
 END
 
 EXEC LIST_ABOUT_ORDER @ssn = '351524229'
+*/
 
 --get number supervisee by supervisor
 
 SELECT * FROM PACKAGE
 SELECT * FROM CORDER
+SELECT * FROM CUSTOMER_SEND
+
+--service có bao nhiêu đơn hàng và mỗi đơn hàng có bao nhiêu package và khối lượng
+--lưu ý mỗi thủ tục hàm phải đủ hai loại truy vấn
+
+ALTER PROC LIST_ABOUT_SERVICE 
+@service VARCHAR(8)
+AS
+BEGIN
+	DROP TABLE IF EXISTS LINKAGE
+	SELECT * INTO LINKAGE FROM (CUSTOMER_SEND JOIN CORDER ON CUSTOMER_SEND.SSN = CORDER.SSN_CS);
+
+	SELECT TEMP.SSN_CS AS SSN,TEMP.ORDERID,COUNT(PACKAGE.PID) AS nPACKAGE,SUM(PACKAGE.PWEIGHT) AS tWEIGHT 
+	FROM 
+		((SELECT * FROM LINKAGE WHERE LINKAGE.SERVICE = @service) AS TEMP
+		JOIN PACKAGE ON TEMP.ORDERID = PACKAGE.ORDERID)
+	GROUP BY TEMP.SSN_CS ,TEMP.ORDERID
+	HAVING COUNT(PACKAGE.PID) >= 2
+	ORDER BY TEMP.ORDERID
+END
+
+EXEC LIST_ABOUT_SERVICE 'NORMAL'
