@@ -22,6 +22,7 @@ SELECT * FROM PACKAGE
 SELECT * FROM CORDER
 SELECT * FROM CUSTOMER_SEND
 
+--thủ tục 1 done--
 --service có bao nhiêu đơn hàng và mỗi đơn hàng có bao nhiêu package và khối lượng
 --lưu ý mỗi thủ tục hàm phải đủ hai loại truy vấn
 
@@ -43,4 +44,9 @@ END
 Go
 
 EXEC LIST_ABOUT_SERVICE 'NORMAL'
+<<<<<<< HEAD
 go
+=======
+
+--thủ tục 2--
+>>>>>>> ca5a38150fdc9b7dc35498c957ed641fa6e57efc
