@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\INSERT_COMMAND",
+    "\\TRANSPORT_COMMAND"
   ],
-  "SelectedNode": "\\question3.sql",
+  "SelectedNode": "\\FUNCTION.sql",
   "PreviewInSolutionExplorer": false
 }
