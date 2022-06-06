@@ -1,0 +1,8 @@
+DECLARE @dis real	
+SELECT @dis = dbo.GET_RATIO_FROM_SSN('625064565')
+
+PRINT @dis
+
+DECLARE @ans real
+SELECT	@ans = dbo.COST_FOR_CUSTOMER_SEND('625064565')
+PRINT @ans

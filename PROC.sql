@@ -8,9 +8,12 @@ END
 GO
 
 EXEC VIEW_ACCOUNT_BY_username @username = '5763894824_EE@test.com'
+GO
 
-
+/*
 USE DRIVER_SERVICE
+GO
+*/
 
 CREATE PROC LOGIN_ACCOUNT
 @username VARCHAR(32), @password VARCHAR(32)
@@ -23,8 +26,10 @@ GO
 
 
 EXEC LOGIN_ACCOUNT @username = '5763894824_EE@test.com' , @password = '8335562165';
+GO
 
 DROP PROC UpdateAccount
+GO
 
 ALTER PROC UpdateAccount
 @username VARCHAR(32), @password VARCHAR(32), @newPassword VARCHAR(32)
@@ -48,12 +53,14 @@ END
 GO
 
 EXEC UpdateAccount  @username = '5763894824_EE@test.com' , @password = '8335562165', @newPassword = '071202';
+GO
 
 SELECT * FROM ACCOUNT;
 
 SELECT * FROM PERSON_PHONE;
 
 DROP PROC InsertPhone;
+GO 
 
 ALTER PROC InsertPhone
 @ssn VARCHAR(10), @phone VARCHAR(11)
@@ -76,6 +83,7 @@ BEGIN
 END;
 
 EXEC InsertPhone @ssn = '658299807' , @phone = '0909090902';
+GO
 
 ALTER PROC INSERT_MAIL @SSN VARCHAR(10), @mail VARCHAR(33)
 AS
@@ -96,6 +104,7 @@ BEGIN
 		END
 	RETURN 0;
 END
+GO
 
 CREATE PROC TEST_CALL
 @ssn VARCHAR(10), @mail VARCHAR(33), @phone VARCHAR(11)
@@ -115,8 +124,10 @@ BEGIN
 	ELSE
 		PRINT 'FAIL IN INSERT PHONE';
 END
+GO
 
 EXEC TEST_CALL '087472489', 'hp@test.com', '0378410842'
+GO
 
 --INSERT ACCOUNT
 ALTER PROC InsertAccount 
@@ -150,6 +161,7 @@ BEGIN
 		END
 	RETURN 1;
 END
+GO
 
 INSERT INTO PERSON VALUES ('191973998','Hoang','Phu','M')
 EXEC InsertAccount 'phu@test.com', '071202', 'CUSTOMER', '191973998'
@@ -168,8 +180,10 @@ BEGIN
 	INSERT INTO PERSON VALUES (@ssn,@fname,@lname,@gender);
 	RETURN 1;
 END;
+GO
 
 EXEC INSERT_PERSON '191973991','Hien','Hien','F'
+GO
 
 SELECT * FROM PERSON
 
