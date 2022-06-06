@@ -1,5 +1,4 @@
 USE DRIVER_SERVICE;
-
 ---PERSON---
 INSERT INTO PERSON(SSN,FirstName,LastName,Gender) VALUES
 	('182835988','Jason','Brown','F'),

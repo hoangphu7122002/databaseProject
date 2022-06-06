@@ -1,5 +1,5 @@
 --USE DRIVER_SERVICE;
-
+--USE master;
 CREATE TABLE PERSON (
     SSN		   CHAR(9) PRIMARY KEY,
     FirstName  TEXT NOT NULL,
