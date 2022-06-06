@@ -41,12 +41,7 @@ BEGIN
 	HAVING COUNT(PACKAGE.PID) >= 2
 	ORDER BY TEMP.ORDERID
 END
-Go
 
 EXEC LIST_ABOUT_SERVICE 'NORMAL'
-<<<<<<< HEAD
-go
-=======
 
 --thủ tục 2--
->>>>>>> ca5a38150fdc9b7dc35498c957ed641fa6e57efc

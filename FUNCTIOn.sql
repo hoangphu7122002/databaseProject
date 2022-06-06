@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-ALTER FUNCTION GET_RATIO_FROM_SSN(@ssn VARCHAR(10))
-=======
-﻿USE DRIVER_SERVICE
+USE DRIVER_SERVICE
 
 CREATE FUNCTION GET_RATIO_FROM_SSN(@ssn VARCHAR(10))
->>>>>>> ca5a38150fdc9b7dc35498c957ed641fa6e57efc
 RETURNS REAL
 AS
 BEGIN
@@ -52,7 +48,7 @@ BEGIN
 			--GET DISTANCE FROM ADRRESS RECEIVE
 			SET @cost_cnt = (SELECT dbo.COST_ORDER(@add_cr,@o_id)) 
 			SET @cost = @cost + @cost_cnt 
-
+				
 			SET @cnt = @cnt + 1;
 		END
 		ELSE
