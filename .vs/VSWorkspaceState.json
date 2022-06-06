@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\INSERT_COMMAND",
     "\\TRANSPORT_COMMAND"
   ],
-<<<<<<< HEAD
-  "SelectedNode": "\\FUNCTION.sql",
-=======
-  "SelectedNode": "\\FUNCTIOn.sql",
->>>>>>> 1a0d3a3606cbbcdae0978032851821bea8b408f6
+  "SelectedNode": "\\ADD.sql",
   "PreviewInSolutionExplorer": false
 }
