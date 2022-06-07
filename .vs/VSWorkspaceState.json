@@ -1,8 +1,9 @@
 {
-    "ExpandedNodes": [
-        "",
-        "\\TRANSPORT_COMMAND"
-    ],
-    "SelectedNode": "\\ADD.sql",
-    "PreviewInSolutionExplorer": false
+  "ExpandedNodes": [
+    "",
+    "\\INSERT_COMMAND",
+    "\\TRANSPORT_COMMAND"
+  ],
+  "SelectedNode": "\\Trigger_updateIndex.sql",
+  "PreviewInSolutionExplorer": false
 }
