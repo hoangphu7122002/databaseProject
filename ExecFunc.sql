@@ -32,8 +32,13 @@ create table test2 (
 t2num int
 foreign key (t2num) references test(num)
 on delete cascade
+on update cascade
 );
 
+alter table test2 add constraint FK_t2num2
+foreign key (t2num) references test(num)
+on delete cascade
+on update cascade
 
 select * from test2
 
@@ -41,6 +46,15 @@ insert into test2
 values (3)
 
 drop table test2
+
+delete from test where num = 3
+
+update test set num = 100 where num = 3
+
+drop table test2
+
+drop table test
+
 /*
 
 SELECT * FROM
@@ -61,11 +75,3 @@ values (2)
 
 select * from test
 */
-
-select * into t1 from (product_table join order_table on product_table.product_cate_id = order_table.product_cate_id);
-
-select * into t2 from (order_table join user_table on order_table.user_id = user_table.user_id);
-
-select sum(order_value) as total_order_value 
-from t1 join t2 on t1.user_id = t2.user_id
-group by user_segment, product_cate_name;
