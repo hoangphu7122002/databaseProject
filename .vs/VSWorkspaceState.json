@@ -1,10 +1,8 @@
 {
-  "ExpandedNodes": [
-    "",
-    "\\INSERT_COMMAND",
-    "\\TRANSPORT_COMMAND",
-    "\\validate"
-  ],
-  "SelectedNode": "\\test_casade.sql",
-  "PreviewInSolutionExplorer": false
+    "ExpandedNodes": [
+        "",
+        "\\TRANSPORT_COMMAND"
+    ],
+    "SelectedNode": "\\ADD.sql",
+    "PreviewInSolutionExplorer": false
 }
