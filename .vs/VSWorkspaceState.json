@@ -4,6 +4,10 @@
     "\\INSERT_COMMAND",
     "\\TRANSPORT_COMMAND"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\test_casade.sql",
+=======
+  "SelectedNode": "\\Trigger_updateIndex.sql",
+>>>>>>> bdf1572598992046b63ebd19776a744278a8dbb7
   "PreviewInSolutionExplorer": false
 }

@@ -54,7 +54,6 @@ BEGIN
 		ELSE
 			BREAK
 	END;
-
 	
 	RETURN @cost * @ratio
 END;
@@ -77,6 +76,7 @@ BEGIN
 	DECLARE @distance_cs INT = '';
 	DECLARE @weight FLOAT = 0.0;
 	WHILE 0 = 0
+
 	BEGIN
 		IF @cnt in (SELECT P_IDX FROM PACKAGE) 
 		BEGIN
@@ -98,9 +98,7 @@ BEGIN
 		END
 		ELSE
 			BREAK
-		
 	END;
-
 	RETURN @cost;
 END
 
