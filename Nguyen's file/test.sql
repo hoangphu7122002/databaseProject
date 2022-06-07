@@ -52,3 +52,15 @@ CREATE TRIGGER DELETE_drives
 
 create trigger DELETE_Person
 	on 
+USE DRIVER_SERVICE
+select * from CORDER order by o_idx 
+select * from package
+select count(P_idx) as NumberofPackage, ORDERID from Package group by (orderid)
+delete from CORDER where ssn_cr = '215040471'
+SELECT * FROM PACKAGE WHERE ORDERID = '0834219676'
+
+select * from account
+delete from account where ssn = '340747318'
+SELECT * FROM CUSTOMER_SEND WHERE SSN = '658299807'
+SELECT * FROM CUSTOMER_RECEIVE WHERE SSN = '340747318'
+--843659624
