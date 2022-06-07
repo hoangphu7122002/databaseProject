@@ -1,19 +1,9 @@
 {
-<<<<<<< HEAD
   "ExpandedNodes": [
     "",
     "\\INSERT_COMMAND",
-    "\\Nguyen's file",
     "\\TRANSPORT_COMMAND"
   ],
-  "SelectedNode": "\\TRANSPORT_COMMAND\\TRANSPORT_v2.sql",
+  "SelectedNode": "\\test_casade.sql",
   "PreviewInSolutionExplorer": false
-=======
-    "ExpandedNodes": [
-        "",
-        "\\TRANSPORT_COMMAND"
-    ],
-    "SelectedNode": "\\ADD.sql",
-    "PreviewInSolutionExplorer": false
->>>>>>> 201b59c07252f6903df95dbb7b0804d0f79cc150
 }
