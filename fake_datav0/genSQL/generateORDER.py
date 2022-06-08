@@ -50,8 +50,8 @@ for key in order.keys():
     ssn_cs = customerSend[str(iterator)]["SSN"]
     ssn_emp = employee[str(iterator)]["SSN"]
     orderid = order[key]["ORDER_ID"]
-    add_sen = order[key]["ADDRESS_SEND"]
-    add_receive = customerReceiver[str(iterator)]["ADDRESS"]
+    #add_sen = order[key]["ADDRESS_SEND"]
+    #add_receive = customerReceiver[str(iterator)]["ADDRESS"]
     tweight = order[key]["TOTAL WEIGHT"]
     num_package = order[key]["NUM_PACKAGE"]
     tprice = 0
