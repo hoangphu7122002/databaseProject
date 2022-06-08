@@ -1,9 +1,11 @@
 {
-  "ExpandedNodes": [
-    "",
-    "\\INSERT_COMMAND",
-    "\\TRANSPORT_COMMAND"
-  ],
-  "SelectedNode": "\\FUNCTION.sql",
-  "PreviewInSolutionExplorer": false
+    "ExpandedNodes": [
+        "",
+        "\\FUNCTION_COMMAND",
+        "\\INSERT_COMMAND",
+        "\\TRANSPORT_COMMAND",
+        "\\TRIGGER_COMMAND"
+    ],
+    "SelectedNode": "\\TRIGGER_COMMAND\\CalculateSalary.sql",
+    "PreviewInSolutionExplorer": false
 }

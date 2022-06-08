@@ -37,3 +37,36 @@ END
 
 SELECT * FROM CORDER;
 DELETE FROM CORDER WHERE ORDERID = '0979647474'
+
+
+use DRIVER_SERVICE
+
+select * from customer_receive
+delete from CUSTOMER_RECEIVE where ssn = '215040471'
+
+select * from ALTERNATIVE_RECEIVER where ssn = '215040471'
+select * from corder where ssn_cr = '215040471'
+
+select * from PACKAGE
+
+select * from CUSTOMER_SEND
+
+delete from CUSTOMER_SEND where ssn ='795908059'
+
+select * from CORDER where ssn_cs = '795908059' 
+
+SELECT * FROM EMPLOYEE
+select * from employee where ssn = '507735440'
+SELECT * FROM EMPLOYEE WHERE SuperSSN = '087472489'
+--507735440
+select * from CORDER where SSN_EMP = '087472489'
+
+delete from EMPLOYEE where ssn = '384392997'
+
+delete from employee where SuperSSN = '087472489'
+
+update employee 
+set SuperSSN = NULL
+WHERE SuperSSN = '571938356'
+--159951930, 749280483
+

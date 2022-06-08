@@ -1,5 +1,3 @@
-USE DRIVER_SERVICE
-
 CREATE FUNCTION GET_RATIO_FROM_SSN(@ssn VARCHAR(10))
 RETURNS REAL
 AS
@@ -12,6 +10,7 @@ BEGIN
 				AS TEMP WHERE TEMP.SSN = @ssn)
 	RETURN @ratio;
 END;
+go
 
 CREATE FUNCTION COST_FOR_CUSTOMER_SEND(
 	@ssn VARCHAR(10)
@@ -57,6 +56,7 @@ BEGIN
 	
 	RETURN @cost * @ratio
 END;
+go
 
 CREATE FUNCTION COST_ORDER (@add_cr VARCHAR(64), @o_id VARCHAR(11))
 RETURNS REAL
@@ -101,88 +101,5 @@ BEGIN
 	END;
 	RETURN @cost;
 END
+go
 
-
-SELECT dbo.COST_ORDER('CAN THO','3403032743') AS COST
-SELECT dbo.COST_FOR_CUSTOMER_SEND('182835988') * 50
-
-
-/*
---tính lương của nhân viên văn phòng
-CREATE FUNCTION GET_SALARY_EMPLOYEE
-(@ssn VARCHAR(10))
-RETURNS BIGINT
-BEGIN
-	--check format ssn
-	IF LEN(@ssn) <> 9 OR @ssn NOT LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
-		RETURN -1.0
-	ELSE IF @ssn NOT IN (SELECT SSN FROM EMPLOYEE) 
-		RETURN -1.0
-	--supervisor
-	DECLARE @exp TINYINT;
-	SET @exp = (SELECT EXP FROM EMPLOYEE WHERE SSN = @ssn);
-	DECLARE @salary BIGINT = 0;
-	SET @salary = (SELECT SALARY FROM SALARY_BILL WHERE EXP = @exp)
-	IF @ssn IN (SELECT SuperSSN FROM EMPLOYEE WHERE SuperSSN IS NOT NULL)
-	BEGIN
-		DECLARE @supervisee INT = 0;
-		SET @supervisee = (SELECT COUNT(SSN) FROM EMPLOYEE GROUP BY(SuperSSN) HAVING SuperSSN = @ssn)
-		
-		RETURN @salary + @supervisee * 100
-	END
-	ELSE IF (SELECT SuperSSN FROM EMPLOYEE WHERE SSN = @ssn) IS NULL
-		RETURN @salary
-	--supervisee
-	RETURN @salary - 100
-END
-
-SELECT dbo.GET_SALARY_EMPLOYEE('691463675') AS SALARY
-
-CREATE FUNCTION GET_SALARY_DRIVER
-(@ssn VARCHAR(10))
-RETURNS BIGINT
-BEGIN
-	--check format ssn
-	IF LEN(@ssn) <> 9 OR @ssn NOT LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
-		RETURN -1.0
-	ELSE IF @ssn NOT IN (SELECT SSN FROM DRIVER) 
-		RETURN -1.0
-	--supervisor
-	DECLARE @exp TINYINT;
-	SET @exp = (SELECT EXP FROM DRIVER WHERE SSN = @ssn);
-	DECLARE @salary BIGINT = 500;
-	
-	IF @exp > 7
-		SET @salary = @salary + 200;
-	ELSE IF @exp > 3
-		SET @salary = @salary + 100;
-	RETURN @salary;
-END
-
-SELECT dbo.GET_SALARY_DRIVER('329535850') AS SALARY
-SELECT dbo.GET_SALARY_EMPLOYEE('691463675')
-*/
-
--- Find the Employee average rating point
-create function AVE_RP(@eid char(8))
-returns real
-begin 
-	-- TODO: VALIDATE THE EID
-	IF LEN(@eid) <> 7 OR @eid NOT LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
-		RETURN -1.0;
-	IF @eid in (SELECT EID FROM (EMPLOYEE JOIN CORDER ON EMPLOYEE.SSN = CORDER.SSN_EMP))
-	begin
-		Declare @num real
-		declare @temp int
-		set @temp = (select count(orderid) from (EMPLOYEE JOIN CORDER ON EMPLOYEE.SSN = CORDER.SSN_EMP) where EID = @eid)
-		set @num = cast(@temp as real)
-		set @temp = (select sum(RATE) from (EMPLOYEE JOIN CORDER ON EMPLOYEE.SSN = CORDER.SSN_EMP) where EID = @eid)
-		DECLARE @AP real
-		set @AP = cast(@temp as real)
-		return cast ((@AP/@num) as real)
-		return 1.0
-	end
-	return 0
-end
-
-select dbo.AVE_RP('2010025')
