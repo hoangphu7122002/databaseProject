@@ -1,5 +1,5 @@
 -- TRIGGER TO DELETE PERSON THAT WHO RELATED TO THE ACCOUNT
-CREATE TRIGGER trigger_deleteAccount ON ACCOUNT AFTER DELETE AS
+CREATE or alter TRIGGER trigger_deleteAccount ON ACCOUNT AFTER DELETE AS
 BEGIN
 	DECLARE @ssn char(9)
 	set @ssn = (select ssn from deleted )

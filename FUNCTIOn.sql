@@ -1,6 +1,6 @@
 USE DRIVER_SERVICE
 
-CREATE FUNCTION GET_RATIO_FROM_SSN(@ssn VARCHAR(10))
+CREATE or alter FUNCTION GET_RATIO_FROM_SSN(@ssn VARCHAR(10))
 RETURNS REAL
 AS
 BEGIN
@@ -13,7 +13,7 @@ BEGIN
 	RETURN @ratio;
 END;
 
-CREATE FUNCTION COST_FOR_CUSTOMER_SEND(
+CREATE or alter FUNCTION COST_FOR_CUSTOMER_SEND(
 	@ssn VARCHAR(10)
 )
 RETURNS REAL
@@ -58,7 +58,7 @@ BEGIN
 	RETURN @cost * @ratio
 END;
 
-CREATE FUNCTION COST_ORDER (@add_cr VARCHAR(64), @o_id VARCHAR(11))
+CREATE or alter FUNCTION COST_ORDER (@add_cr VARCHAR(64), @o_id VARCHAR(11))
 RETURNS REAL
 BEGIN
 	IF LEN(@o_id) <> 10 OR @o_id NOT LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
@@ -164,7 +164,7 @@ SELECT dbo.GET_SALARY_EMPLOYEE('691463675')
 */
 
 -- Find the Employee average rating point
-create function AVE_RP(@eid char(8))
+create or alter function AVE_RP(@eid char(8))
 returns real
 begin 
 	-- TODO: VALIDATE THE EID

@@ -1,4 +1,4 @@
-create TRIGGER Derrived_salary ON EMPLOYEE
+create or alter TRIGGER Derrived_salary ON EMPLOYEE
 AFTER INSERT AS
 BEGIN
 	DECLARE @cnt INT
@@ -49,3 +49,4 @@ BEGIN
 	END
 END
 
+--select * from employee

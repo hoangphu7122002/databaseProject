@@ -21,12 +21,12 @@ EXEC LIST_ABOUT_ORDER @ssn = '351524229'
 SELECT * FROM PACKAGE
 SELECT * FROM CORDER
 SELECT * FROM CUSTOMER_SEND
-
+go
 --thủ tục 1 done--
 --service có bao nhiêu đơn hàng và mỗi đơn hàng có bao nhiêu package và khối lượng
 --lưu ý mỗi thủ tục hàm phải đủ hai loại truy vấn
 
-ALTER PROC LIST_ABOUT_SERVICE 
+create or ALTER PROC LIST_ABOUT_SERVICE 
 @service VARCHAR(8)
 AS
 BEGIN
@@ -41,15 +41,16 @@ BEGIN
 	HAVING COUNT(PACKAGE.PID) >= 2
 	ORDER BY TEMP.ORDERID
 END
+go
 
 EXEC LIST_ABOUT_SERVICE 'NORMAL'
-
+go
 -- thủ tục 2 done --
 -- hiển thị tất cả tài khoản thuộc loại @type trong (DRIVER, EMPLOYEE, CUSTOMER)
 -- với số lượng sđt đăng ký @num_phone
 -- khác với ý tưởng ban đầu sử dụng gender ở person nha
 
-CREATE PROC NUMPHONE_ACCOUNT 
+CREATE or alter PROC NUMPHONE_ACCOUNT 
 @type VARCHAR(8), @num_phone TINYINT
 AS
 BEGIN

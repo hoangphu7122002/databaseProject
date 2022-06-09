@@ -1,4 +1,4 @@
-create trigger NULL_WHEN_DELETE_SUPERSSN on EMPLOYEE
+create or alter trigger NULL_WHEN_DELETE_SUPERSSN on EMPLOYEE
 -- test lai voi instead of
 INSTEAD OF DELETE
 AS

@@ -1,5 +1,5 @@
 -- Update the index of the 
-CREATE TRIGGER trigger_deleteOrder ON CORDER AFTER DELETE AS
+CREATE or alter TRIGGER trigger_deleteOrder ON CORDER AFTER DELETE AS
 BEGIN
 	--update index for corder
 	DROP TABLE IF EXISTS CORDER_TEMP
