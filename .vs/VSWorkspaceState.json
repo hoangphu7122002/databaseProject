@@ -6,6 +6,6 @@
     "\\TRANSPORT_COMMAND",
     "\\TRIGGER_COMMAND"
   ],
-  "SelectedNode": "\\TRIGGER_COMMAND\\CalculateSalary.sql",
+  "SelectedNode": "\\FUNCTION_COMMAND\\AverageRP_Function.sql",
   "PreviewInSolutionExplorer": false
 }
