@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PROCEDURE_COMMAND"
   ],
-  "SelectedNode": "\\PROCEDURE_COMMAND",
+  "SelectedNode": "\\PROCEDURE_COMMAND\\PROC.sql",
   "PreviewInSolutionExplorer": false
 }
