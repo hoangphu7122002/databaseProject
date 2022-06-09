@@ -1,4 +1,4 @@
-
+﻿-- View account
 CREATE PROC VIEW_ACCOUNT_BY_username
 @username VARCHAR(32)
 AS
@@ -10,11 +10,7 @@ GO
 EXEC VIEW_ACCOUNT_BY_username @username = '5763894824_EE@test.com'
 GO
 
-/*
-USE DRIVER_SERVICE
-GO
-*/
-
+-- Login account
 CREATE PROC LOGIN_ACCOUNT
 @username VARCHAR(32), @password VARCHAR(32)
 AS
@@ -23,44 +19,14 @@ BEGIN
 END
 GO
 
-
-
 EXEC LOGIN_ACCOUNT @username = '5763894824_EE@test.com' , @password = '8335562165';
 GO
 
-DROP PROC UpdateAccount
-GO
-
-ALTER PROC UpdateAccount
-@username VARCHAR(32), @password VARCHAR(32), @newPassword VARCHAR(32)
-AS
-BEGIN
-	DECLARE @isRightPass INT = 0
-
-	SELECT @isRightPass = COUNT(*) FROM ACCOUNT WHERE UserName = @username AND PASS = @password
-	IF (@isRightPass = 1)
-	BEGIN 
-		IF (@newPassword != '')
-			BEGIN
-				UPDATE ACCOUNT SET PASS = @newPassword WHERE UserName = @username
-			END
-		ELSE 
-			BEGIN
-				PRINT 'Invalid new Password';
-			END
-	END
-END
-GO
-
-EXEC UpdateAccount  @username = '5763894824_EE@test.com' , @password = '8335562165', @newPassword = '071202';
-GO
-
-SELECT * FROM ACCOUNT;
-
 SELECT * FROM PERSON_PHONE;
 
-DROP PROC InsertPhone;
-GO 
+-- Insert phone
+DROP PROC InsertPhone
+GO
 
 ALTER PROC InsertPhone
 @ssn VARCHAR(10), @phone VARCHAR(11)
@@ -85,6 +51,7 @@ END;
 EXEC InsertPhone @ssn = '658299807' , @phone = '0909090902';
 GO
 
+-- Insert mail
 ALTER PROC INSERT_MAIL @SSN VARCHAR(10), @mail VARCHAR(33)
 AS
 BEGIN
@@ -106,6 +73,7 @@ BEGIN
 END
 GO
 
+-- test call (phone + mail)
 CREATE PROC TEST_CALL
 @ssn VARCHAR(10), @mail VARCHAR(33), @phone VARCHAR(11)
 AS
@@ -126,11 +94,29 @@ BEGIN
 END
 GO
 
-EXEC TEST_CALL '087472489', 'hp@test.com', '0378410842'
+EXEC TEST_CALL '087472489', 'hp@test.com', '0378410842';
+
+-- Insert person
+CREATE PROC INSERT_PERSON
+@ssn VARCHAR(10), @fname VARCHAR(33), @lname VARCHAR(33), @gender VARCHAR(2)
+AS
+BEGIN
+	--check ssn in database
+	IF @ssn IN (SELECT SSN FROM PERSON)
+		RETURN 0;
+	INSERT INTO PERSON VALUES (@ssn,@fname,@lname,@gender);
+	RETURN 1;
+END;
 GO
 
---INSERT ACCOUNT
-ALTER PROC InsertAccount 
+EXEC INSERT_PERSON '191973991','Hien','Hien','F'
+GO
+
+SELECT * FROM PERSON;
+SELECT * FROM ACCOUNT;
+
+-- INSERT ACCOUNT
+CREATE PROC InsertAccount 
 @username VARCHAR(33), @password VARCHAR(33), @type VARCHAR(9), @ssn VARCHAR(10)
 AS
 BEGIN
@@ -168,23 +154,63 @@ EXEC InsertAccount 'phu@test.com', '071202', 'CUSTOMER', '191973998'
 
 SELECT * FROM ACCOUNT WHERE SSN = '191973998'
 
-SELECT * FROM PERSON
+-- UPDATE ACCOUNT
+DROP PROC IF EXISTS UpdateAccount
+GO
 
-CREATE PROC INSERT_PERSON
-@ssn VARCHAR(10), @fname VARCHAR(33), @lname VARCHAR(33), @gender VARCHAR(2)
+CREATE PROC UpdateAccount
+@username VARCHAR(33), @password VARCHAR(33), @newPassword VARCHAR(32)
 AS
 BEGIN
-	--check ssn in database
-	IF @ssn IN (SELECT SSN FROM PERSON)
-		RETURN 0;
-	INSERT INTO PERSON VALUES (@ssn,@fname,@lname,@gender);
-	RETURN 1;
-END;
+	IF LEN(@username) > 32 OR LEN(@password) > 32
+		PRINT 'Invalid format User name or Password';
+	ELSE IF @username NOT IN (SELECT UserName FROM ACCOUNT) 
+		PRINT 'User name is not in database';
+
+	DECLARE @isRightPass INT = 0
+
+	SELECT @isRightPass = COUNT(*) FROM ACCOUNT WHERE UserName = @username AND PASS = @password
+	IF (@isRightPass = 1)
+	BEGIN 
+		IF (@newPassword != '')
+			BEGIN
+				PRINT 'UPDATE SUCESS';
+				UPDATE ACCOUNT SET PASS = @newPassword WHERE UserName = @username
+			END
+		ELSE 
+			PRINT 'Invalid new Password';
+	END
+	ELSE
+		PRINT 'Incorrect Password';
+END
 GO
 
-EXEC INSERT_PERSON '191973991','Hien','Hien','F'
+--EXEC UpdateAccount  @username = '5763894824_EE@test.com' , @password = '071202', @newPassword = 'khongcopass'
+EXEC UpdateAccount  @username = '5763894824_EE@test.com' , @password = '8335562165', @newPassword = '071202'
 GO
 
-SELECT * FROM PERSON
+-- DELETE ACCOUNT
+DROP PROC IF EXISTS DeleteAccount
+GO
 
-SELECT * FROM ACCOUNT
+CREATE PROC DeleteAccount
+@id VARCHAR(11)
+AS
+BEGIN
+	IF LEN(@id) <> 10 OR @id NOT LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
+		PRINT 'Invalid format ID';
+	ELSE IF @id NOT IN (SELECT ID FROM ACCOUNT) 
+		PRINT 'Account is not in database';
+	ELSE 
+		PRINT 'DELETE SUCESSFUL';
+		DELETE FROM ACCOUNT WHERE ID = @id;
+END
+GO
+
+EXEC DeleteAccount '9857623402'
+GO
+
+-- câu 1.2.1 chỉ cần 3 proc INSERT, UPDATE, DELETE ACCOUNT
+
+
+
