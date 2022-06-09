@@ -136,6 +136,30 @@ BEGIN
 	RETURN @salary - 100
 END
 
+SELECT dbo.GET_SALARY_EMPLOYEE('691463675') AS SALARY
+
+CREATE FUNCTION GET_SALARY_DRIVER
+(@ssn VARCHAR(10))
+RETURNS BIGINT
+BEGIN
+	--check format ssn
+	IF LEN(@ssn) <> 9 OR @ssn NOT LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'
+		RETURN -1.0
+	ELSE IF @ssn NOT IN (SELECT SSN FROM DRIVER) 
+		RETURN -1.0
+	--supervisor
+	DECLARE @exp TINYINT;
+	SET @exp = (SELECT EXP FROM DRIVER WHERE SSN = @ssn);
+	DECLARE @salary BIGINT = 500;
+	
+	IF @exp > 7
+		SET @salary = @salary + 200;
+	ELSE IF @exp > 3
+		SET @salary = @salary + 100;
+	RETURN @salary;
+END
+
+SELECT dbo.GET_SALARY_DRIVER('329535850') AS SALARY
 SELECT dbo.GET_SALARY_EMPLOYEE('691463675')
 */
 
