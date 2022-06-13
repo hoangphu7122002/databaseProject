@@ -4,7 +4,7 @@ select * from person
 
 delete from person where person.ssn = '087472489'
 
-select * from account where account.ssn = '087472489'
+select * from account where account.ssn = '351524229'
 
 create TABLE test(
 num int,

@@ -154,12 +154,8 @@ CREATE TABLE KILOMETER_DISTANCE (
 CREATE TABLE SALARY_BILL (
 	EXP TINYINT PRIMARY KEY,
 	SALARY BIGINT
-<<<<<<< HEAD
 )
 
 create table SERVICE_TYPE(
 	ser varchar(8)
 )
-=======
-);
->>>>>>> c1972f9cb10fd65fe888bcbe67daf0e5bdda621e

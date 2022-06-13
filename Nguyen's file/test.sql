@@ -49,6 +49,7 @@ GO
 CREATE TRIGGER DELETE_drives
 	ON dbo.DRIVES
 	
+select * from person
 
 create trigger DELETE_Person
 	on 

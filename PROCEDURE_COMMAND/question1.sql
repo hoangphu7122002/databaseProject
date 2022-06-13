@@ -12,7 +12,7 @@ GO
 
 -- Login account
 CREATE PROC LOGIN_ACCOUNT
-@username VARCHAR(32), @password VARCHAR(32)
+@username VARCHAR(32), @passw	ord VARCHAR(32)
 AS
 BEGIN 
 	SELECT * FROM ACCOUNT WHERE UserName = @username AND PASS = @password
@@ -115,6 +115,8 @@ GO
 SELECT * FROM PERSON;
 SELECT * FROM ACCOUNT;
 
+--use DRIVER_SERVICE
+
 -- INSERT ACCOUNT
 CREATE PROC InsertAccount 
 @username VARCHAR(33), @password VARCHAR(33), @type VARCHAR(9), @ssn VARCHAR(10)
@@ -151,8 +153,8 @@ GO
 
 INSERT INTO PERSON VALUES ('191973998','Hoang','Phu','M')
 EXEC InsertAccount 'phu@test.com', '071202', 'CUSTOMER', '191973998'
-
 SELECT * FROM ACCOUNT WHERE SSN = '191973998'
+
 
 -- UPDATE ACCOUNT
 DROP PROC IF EXISTS UpdateAccount

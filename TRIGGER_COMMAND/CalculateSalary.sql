@@ -1,4 +1,7 @@
-create or alter TRIGGER Derrived_salary ON EMPLOYEE
+use DRIVER_SERVICE;
+go 
+
+CREATE or ALTER TRIGGER Derrived_salary ON EMPLOYEE
 AFTER INSERT AS
 BEGIN
 	DECLARE @cnt INT
@@ -48,5 +51,8 @@ BEGIN
 		END
 	END
 END
-
---select * from employee
+-- select * from employee
+-- delete from employee
+/*
+---EMPLOYEE---
+*/

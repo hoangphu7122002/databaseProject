@@ -18,6 +18,9 @@ EXEC LIST_ABOUT_ORDER @ssn = '351524229'
 
 --get number supervisee by supervisor
 
+USE DRIVER_SERVICE
+go
+
 SELECT * FROM PACKAGE
 SELECT * FROM CORDER
 SELECT * FROM CUSTOMER_SEND
@@ -45,6 +48,11 @@ go
 
 EXEC LIST_ABOUT_SERVICE 'NORMAL'
 go
+EXEC LIST_ABOUT_SERVICE 'DISCOUNT'
+go
+EXEC LIST_ABOUT_SERVICE 'EXPRESS'
+go
+
 -- thủ tục 2 done --
 -- hiển thị tất cả tài khoản thuộc loại @type trong (DRIVER, EMPLOYEE, CUSTOMER)
 -- với số lượng sđt đăng ký @num_phone
@@ -75,4 +83,4 @@ BEGIN
 END
 GO
 
-EXEC NUMPHONE_ACCOUNT  'CUSTOMER', 2;
+EXEC NUMPHONE_ACCOUNT  'EMPLOYEE', 2;

@@ -1,5 +1,7 @@
-create or alter trigger NULL_WHEN_DELETE_SUPERSSN on EMPLOYEE
--- test lai voi instead of
+use DRIVER_SERVICE
+go
+
+CREATE or ALTER TRIGGER NULL_WHEN_DELETE_SUPERSSN on EMPLOYEE
 INSTEAD OF DELETE
 AS
 BEGIN
@@ -14,3 +16,4 @@ BEGIN
 	DELETE FROM EMPLOYEE WHERE SSN IN (SELECT SSN FROM deleted)
 END
 -- !!Check the employee with the ssn is not a superssn
+go

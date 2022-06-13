@@ -25,3 +25,6 @@ BEGIN
 		DELETE FROM DRIVER WHERE SSN = @ssn
 	end
 END
+
+-- use driver_service
+-- select * from employee

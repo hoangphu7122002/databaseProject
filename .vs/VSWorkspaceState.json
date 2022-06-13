@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PROCEDURE_COMMAND"
+    "\\FUNCTION_COMMAND",
+    "\\TRIGGER_COMMAND"
   ],
-  "SelectedNode": "\\PROCEDURE_COMMAND\\PROC.sql",
+  "SelectedNode": "\\TRIGGER_COMMAND\\testDeleteSuperSSN.sql",
   "PreviewInSolutionExplorer": false
 }
