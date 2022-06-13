@@ -2,8 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\FUNCTION_COMMAND",
+<<<<<<< HEAD
     "\\TRIGGER_COMMAND"
   ],
   "SelectedNode": "\\TRIGGER_COMMAND\\testDeleteSuperSSN.sql",
+=======
+    "\\INSERT_COMMAND",
+    "\\TRANSPORT_COMMAND",
+    "\\TRIGGER_COMMAND"
+  ],
+  "SelectedNode": "\\run.sql",
+>>>>>>> 86f2a3d8bffcf111b0bfccc2f6be5714c336188c
   "PreviewInSolutionExplorer": false
 }
